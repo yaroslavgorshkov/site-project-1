@@ -13,21 +13,21 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3333 3.33341H0.666667C0.298477 3.33341 0 3.03494 0 2.66675V1.33341C0 0.965225 0.298477 0.666748 0.666667 0.666748H23.3333C23.7015 0.666748 24 0.965225 24 1.33341V2.66675C24 3.03494 23.7015 3.33341 23.3333 3.33341ZM24 10.6669V9.33354C24 8.96535 23.7015 8.66687 23.3333 8.66687H0.666667C0.298477 8.66687 0 8.96535 0 9.33354V10.6669C0 11.0351 0.298477 11.3335 0.666667 11.3335H23.3333C23.7015 11.3335 24 11.0351 24 10.6669ZM24 17.3335V18.6668C24 19.035 23.7015 19.3335 23.3333 19.3335H0.666667C0.298477 19.3335 0 19.035 0 18.6668V17.3335C0 16.9653 0.298477 16.6668 0.666667 16.6668H23.3333C23.7015 16.6668 24 16.9653 24 17.3335Z" fill="#07484A"/>
                 </svg>                
         </button>
-        <nav class="navigation-panel">
-            <ul class="navigation-panel__list">
-                <li class="navigation-panel__element navigation-panel__element--highlighted">
+        <nav class="header-navigation-panel">
+            <ul class="navigation-list header-navigation-panel__list">
+                <li class="navigation-list__element navigation-list__element--highlighted">
                     <a href="#home">Home</a>
                 </li>
-                <li class="navigation-panel__element">
+                <li class="navigation-list__element">
                     <a href="#products">Products</a>
                 </li>
-                <li class="navigation-panel__element">
+                <li class="navigation-list__element">
                     <a href="#categories">Categories</a>
                 </li>
-                <li class="navigation-panel__element">
+                <li class="navigation-list__element">
                     <a href="#about">About</a>
                 </li>
-                <li class="navigation-panel__element">
+                <li class="navigation-list__element">
                     <a href="#contact-us">Contact Us</a>
                 </li>
             </ul>
@@ -74,6 +74,218 @@
                 <img src="img/hero-section-image.jpg" alt="Beautiful furniture image">
             </div>
         </section>
+
+        <div class="category-section-wrapper">
+            <section class="category-section">
+                <div class="category-section__headline">
+                    <h2>
+                        Explore by Category
+                    </h2>
+                    <div class="category-search-menu-container">
+                        <form action="get" class="category-search-form">
+                            <div class="svg-container">
+                                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.88898 19.278C14.7982 19.278 18.778 15.2982 18.778 10.389C18.778 5.47973 14.7982 1.5 9.88898 1.5C4.97973 1.5 1 5.47973 1 10.389C1 15.2982 4.97973 19.278 9.88898 19.278Z" stroke="#6E757E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.9999 21.4999L16.1665 16.6665" stroke="#6E757E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                            </div>
+                            <input type="text" name="" id="" placeholder="Search">
+                        </form>
+                        <button class="category-search-burger-menu hover-animation-element">
+                            <div>
+                                <svg width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35 4.5H1C0.447715 4.5 0 4.05228 0 3.5V1.5C0 0.947715 0.447715 0.5 1 0.5H35C35.5523 0.5 36 0.947715 36 1.5V3.5C36 4.05228 35.5523 4.5 35 4.5ZM36 15.5001V13.5001C36 12.9478 35.5523 12.5001 35 12.5001H1C0.447715 12.5001 0 12.9478 0 13.5001V15.5001C0 16.0524 0.447715 16.5001 1 16.5001H35C35.5523 16.5001 36 16.0524 36 15.5001ZM36 25.5001V27.5001C36 28.0523 35.5523 28.5001 35 28.5001H1C0.447715 28.5001 0 28.0523 0 27.5001V25.5001C0 24.9478 0.447715 24.5001 1 24.5001H35C35.5523 24.5001 36 24.9478 36 25.5001Z" fill="#07484A"/>
+                                    </svg>                                    
+                            </div>
+                        </button>
+                    </div>
+                    <ul class="navigation-list category-navigation-panel__list">
+                        <li class="navigation-list__element navigation-list__element--highlighted">
+                            <a href="#Bedroom">Bedroom</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#dinning-room">Dinning Room</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#meeting-room">Meeting Room</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#workspace">Workspace</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#living-room">Living Room</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#room-kitchen">Room Kitchen</a>
+                        </li>
+                        <li class="navigation-list__element">
+                            <a href="#living-space">Living Space</a>
+                        </li>
+                    </ul>
+                    <button class="category-section__all-categories-button hover-animation-element">
+                        <span>
+                            All Categories
+                        </span>
+                        <div class="svg-container">
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0555 12.7273C13.969 12.641 13.9004 12.5386 13.8536 12.4258C13.8068 12.313 13.7827 12.1921 13.7827 12.07C13.7827 11.9479 13.8068 11.8269 13.8536 11.7142C13.9004 11.6014 13.969 11.4989 14.0555 11.4127L18.9702 6.49976L14.0555 1.58683C13.8811 1.4125 13.7832 1.17607 13.7832 0.929542C13.7832 0.683012 13.8811 0.446579 14.0555 0.272256C14.2298 0.0979328 14.4662 -2.98767e-08 14.7127 -4.06528e-08C14.9593 -5.1429e-08 15.1957 0.0979328 15.37 0.272256L20.9402 5.84247C21.0267 5.92871 21.0953 6.03116 21.1421 6.14394C21.1889 6.25673 21.213 6.37764 21.213 6.49976C21.213 6.62187 21.1889 6.74278 21.1421 6.85557C21.0953 6.96836 21.0267 7.0708 20.9402 7.15704L15.37 12.7273C15.2838 12.8137 15.1813 12.8823 15.0686 12.9291C14.9558 12.9759 14.8349 13 14.7127 13C14.5906 13 14.4697 12.9759 14.3569 12.9291C14.2441 12.8823 14.1417 12.8137 14.0555 12.7273Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.787109 6.49985C0.787109 6.25363 0.88492 6.0175 1.05902 5.8434C1.23313 5.66929 1.46926 5.57148 1.71548 5.57148L18.4261 5.57148C18.6723 5.57148 18.9085 5.66929 19.0826 5.8434C19.2567 6.0175 19.3545 6.25363 19.3545 6.49985C19.3545 6.74607 19.2567 6.98221 19.0826 7.15631C18.9085 7.33041 18.6723 7.42822 18.4261 7.42822L1.71548 7.42822C1.46926 7.42822 1.23313 7.33041 1.05902 7.15631C0.88492 6.98221 0.787109 6.74607 0.787109 6.49985Z" fill="white"/>
+                                </svg>                                
+                        </div>
+                    </button>
+                </div>
+                <div class="category-section__main-block">
+                    <div class="category-section__side-menu">
+                        <form action="get" class="category-section__side-search-form">
+                            <div class="svg-container">
+                                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.88898 19.278C14.7982 19.278 18.778 15.2982 18.778 10.389C18.778 5.47973 14.7982 1.5 9.88898 1.5C4.97973 1.5 1 5.47973 1 10.389C1 15.2982 4.97973 19.278 9.88898 19.278Z" stroke="#6E757E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.9999 21.4999L16.1665 16.6665" stroke="#6E757E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                            </div>
+                            <input type="text" name="" id="" placeholder="Search">
+                        </form>
+                        <div class="category-section__side-nav-slider-container">                        
+                            <ul class="navigation-list category-section__side-navigation-panel-list">
+                                <li class="navigation-list__element">
+                                    <a href="#Bedroom">Bedroom</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#dinning-room">Dinning Room</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#meeting-room">Meeting Room</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#workspace">Workspace</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#living-room">Living Room</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#room-kitchen">Room Kitchen</a>
+                                </li>
+                                <li class="navigation-list__element">
+                                    <a href="#living-space">Living Space</a>
+                                </li>
+                            </ul>
+                            <div class="category-section__side-slider-arrows-container">
+                                <div class="category-section__side-slider side-slider">                                
+                                    <div class="side-slider__bold-line"></div>
+                                    <div class="side-slider__thin-line"></div>
+                                </div>
+                                <div class="category-section__arrows-container arrows-container">
+                                    <button class="back-arrow svg-container hover-animation-element">
+                                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.99979 1.47913C4.11829 1.47913 4.23194 1.5262 4.31573 1.60999C4.39953 1.69379 4.4466 1.80743 4.4466 1.92594L4.4466 9.96853C4.4466 10.087 4.39953 10.2007 4.31573 10.2845C4.23194 10.3683 4.11829 10.4153 3.99979 10.4153C3.88129 10.4153 3.76764 10.3683 3.68385 10.2845C3.60005 10.2007 3.55298 10.087 3.55298 9.96853L3.55298 1.92594C3.55298 1.80744 3.60005 1.69379 3.68385 1.60999C3.76764 1.5262 3.88129 1.47913 3.99979 1.47913Z" fill="#07484A"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6836 0.715984C3.72511 0.674374 3.77441 0.641361 3.82869 0.618836C3.88298 0.596311 3.94117 0.584716 3.99994 0.584716C4.05871 0.584716 4.11691 0.596311 4.17119 0.618836C4.22547 0.641361 4.27478 0.674374 4.31628 0.715984L6.99715 3.39685C7.08105 3.48075 7.12818 3.59454 7.12818 3.71319C7.12818 3.83184 7.08105 3.94563 6.99715 4.02953C6.91325 4.11343 6.79946 4.16056 6.68081 4.16056C6.56215 4.16056 6.44836 4.11343 6.36446 4.02953L3.99994 1.66412L1.63542 4.02953C1.55152 4.11343 1.43773 4.16056 1.31908 4.16056C1.20043 4.16056 1.08664 4.11343 1.00274 4.02953C0.918839 3.94563 0.871705 3.83184 0.871705 3.71319C0.871705 3.59454 0.918839 3.48075 1.00274 3.39685L3.6836 0.715984Z" fill="#07484A"/>
+                                            </svg>
+                                            
+                                    </button>
+                                    <button class="forward-arrow svg-container hover-animation-element">
+                                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00021 9.52087C3.88171 9.52087 3.76806 9.4738 3.68427 9.39001C3.60047 9.30621 3.5534 9.19257 3.5534 9.07406L3.5534 1.03147C3.5534 0.912973 3.60047 0.799324 3.68427 0.71553C3.76806 0.631738 3.88171 0.584663 4.00021 0.584663C4.11871 0.584663 4.23236 0.631738 4.31615 0.71553C4.39995 0.799324 4.44702 0.912972 4.44702 1.03147L4.44702 9.07406C4.44702 9.19256 4.39995 9.30621 4.31615 9.39001C4.23236 9.4738 4.11871 9.52087 4.00021 9.52087Z" fill="#07484A"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.3164 10.284C4.27489 10.3256 4.22559 10.3586 4.17131 10.3812C4.11702 10.4037 4.05883 10.4153 4.00006 10.4153C3.94129 10.4153 3.88309 10.4037 3.82881 10.3812C3.77453 10.3586 3.72522 10.3256 3.68372 10.284L1.00285 7.60315C0.918953 7.51925 0.87182 7.40546 0.87182 7.28681C0.87182 7.16816 0.918953 7.05437 1.00285 6.97047C1.08675 6.88657 1.20054 6.83944 1.31919 6.83944C1.43785 6.83944 1.55164 6.88657 1.63554 6.97047L4.00006 9.33588L6.36458 6.97047C6.44848 6.88657 6.56227 6.83944 6.68092 6.83944C6.79957 6.83944 6.91336 6.88657 6.99726 6.97047C7.08116 7.05437 7.1283 7.16816 7.1283 7.28681C7.1283 7.40546 7.08116 7.51925 6.99726 7.60315L4.3164 10.284Z" fill="#07484A"/>
+                                            </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="category-section__side-all-categories-button hover-animation-element">
+                            <span>
+                                All Categories
+                            </span>
+                            <div class="svg-container">
+                                <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0555 12.7273C13.969 12.641 13.9004 12.5386 13.8536 12.4258C13.8068 12.313 13.7827 12.1921 13.7827 12.07C13.7827 11.9479 13.8068 11.8269 13.8536 11.7142C13.9004 11.6014 13.969 11.4989 14.0555 11.4127L18.9702 6.49976L14.0555 1.58683C13.8811 1.4125 13.7832 1.17607 13.7832 0.929542C13.7832 0.683012 13.8811 0.446579 14.0555 0.272256C14.2298 0.0979328 14.4662 -2.98767e-08 14.7127 -4.06528e-08C14.9593 -5.1429e-08 15.1957 0.0979328 15.37 0.272256L20.9402 5.84247C21.0267 5.92871 21.0953 6.03116 21.1421 6.14394C21.1889 6.25673 21.213 6.37764 21.213 6.49976C21.213 6.62187 21.1889 6.74278 21.1421 6.85557C21.0953 6.96836 21.0267 7.0708 20.9402 7.15704L15.37 12.7273C15.2838 12.8137 15.1813 12.8823 15.0686 12.9291C14.9558 12.9759 14.8349 13 14.7127 13C14.5906 13 14.4697 12.9759 14.3569 12.9291C14.2441 12.8823 14.1417 12.8137 14.0555 12.7273Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.787109 6.49985C0.787109 6.25363 0.88492 6.0175 1.05902 5.8434C1.23313 5.66929 1.46926 5.57148 1.71548 5.57148L18.4261 5.57148C18.6723 5.57148 18.9085 5.66929 19.0826 5.8434C19.2567 6.0175 19.3545 6.25363 19.3545 6.49985C19.3545 6.74607 19.2567 6.98221 19.0826 7.15631C18.9085 7.33041 18.6723 7.42822 18.4261 7.42822L1.71548 7.42822C1.46926 7.42822 1.23313 7.33041 1.05902 7.15631C0.88492 6.98221 0.787109 6.74607 0.787109 6.49985Z" fill="white"/>
+                                    </svg>                                
+                            </div>
+                        </button>
+                    </div>
+                    <div class="category-section__main-content-wrapper">
+                        <article class="category-section__element category-section__element--highlighted">
+                            <span class="category-section__element-name">
+                                Bedroom
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-bedroom.jpg" alt="Beautiful Bedroom Photo">
+                            </div>
+                        </article>
+                        <article class="category-section__element">
+                            <span class="category-section__element-name">
+                                Dinning Room
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-dinning.jpg" alt="Beautiful Dinning Room Photo">
+                            </div>
+                        </article>
+                        <article class="category-section__element">
+                            <span class="category-section__element-name">
+                                Meeting Room
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-meeting-room.jpg" alt="Beautiful Meeting Room Photo">
+                            </div>
+                        </article>
+                        <article class="category-section__element">
+                            <span class="category-section__element-name">
+                                Workspace
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-workspace-room.jpg" alt="Beautiful Workspace Room Photo">
+                            </div>
+                        </article>
+                        <article class="category-section__element">
+                            <span class="category-section__element-name">
+                                Living Room
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-living-room.jpg" alt="Beautiful Living Room Photo">
+                            </div>
+                        </article>
+                        <article class="category-section__element">
+                            <span class="category-section__element-name">
+                                Kitchen Room
+                            </span>
+                            <button class="category-section__element-button hover-animation-element">
+                                <span>
+                                    Explore
+                                </span>
+                            </button>
+                            <div class="category-section__element-bg-img">
+                                <img src="img/categories-kitchen-room.jpg" alt="Beautiful Kitchen Room Photo">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 </html>
